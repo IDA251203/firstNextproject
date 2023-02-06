@@ -1,7 +1,38 @@
 .container {
-  padding: 0 2rem;
+  padding: 0 1.2rem;
+  width: 100%;
+  height: 90px;
+  background-image: linear-gradient(rgba(113, 184, 166, 0.6),rgba(113, 184, 166, 0.2),rgba(113, 184, 166, 0.6));
+  display: flex;
+  justify-content: space-around;
+  color: gray;
 }
-
+.container ul{
+  display: flex;
+  width: 70%;
+  height: 90px;
+  justify-content: space-around;
+}
+.container ul li{
+  list-style-type: none;
+  font-weight: 600;
+}
+.imageContainer{
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.imageContainer li{
+  list-style-type: none;
+  padding-left: -40px;
+}
+.imageContainer .image{
+  border: 0.4px solid gray;
+  padding: 3px;
+  border-radius: 6px;
+}
 .main {
   min-height: 100vh;
   padding: 4rem 0;
